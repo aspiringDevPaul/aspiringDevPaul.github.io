@@ -1,0 +1,12 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<ShortName>Lithosphere</ShortName>
+<Description>Search for posts on Lithosphere - The Lithium Community</Description>
+<Tags>lithium community forum</Tags>
+<Image type="image/png">
+https://lithosphere.lithium.com/html/assets/favicon-16x16.png
+</Image>
+<Url type="application/opensearchdescription+xml" rel="self" template="https://lithosphere.lithium.com/LithosphereSearch.xml"/>
+<Url type="text/html" template="https://lithosphere.lithium.com/t5/forums/searchpage/tab/message?q={searchTerms}&amp;utm_source=community&amp;utm_medium=opensearch"/>
+<Url type="application/x-suggestions+json" method="get" template="https://lithosphere.lithium.com/lithosphere/plugins/custom/lithium/lithosphere/get-searchresults?q={searchTerms}"/>
+<Query role="example" searchTerms="search term"/>
+</OpenSearchDescription>
